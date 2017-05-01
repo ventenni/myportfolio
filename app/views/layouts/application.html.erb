@@ -18,17 +18,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <%= link_to "/", class: "navbar-logo" do %>
+          <%= link_to root_path, class: "navbar-logo" do %>
             <img src="assets/NAV.png" alt="logo" height="60px" width="60px">
           <% end %>
           <div class="title-name text-center">Nick Vaiente</div>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "About", "/about" %></li>
-            <li><%= link_to "Programming", "/programming" %></li>
-            <li><%= link_to "Photography", "/photography" %></li>
-            <li><%= link_to "Contact", "/contact" %></li>
+            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Programming", programming_path %></li>
+            <li><%= link_to "Photography", photography_path %></li>
+            <li><%= link_to "Contact", contact_path %></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
