@@ -17,7 +17,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-h1, body {
+body {
     font-family: raleway;
 }
 
@@ -28,6 +28,16 @@ h1, body {
     padding-bottom: 3px;
 }
 
+.navbar-logo {
+    position: relative;
+}
+
 body {
     background-color: #cfcfcf;
+    // background-image: url("large.png");
+    // background-position: center top;
+}
+
+.title-name {
+    text-align: center;
 }
