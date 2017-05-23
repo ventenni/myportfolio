@@ -4,4 +4,5 @@ Rails.application.routes.draw do
     get 'programming', to: 'pages#programming'
     get 'photography', to: 'pages#photography'
     get 'contact', to: 'pages#contact'
+    resources :contacts
 end
