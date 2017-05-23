@@ -3,9 +3,10 @@
 
 <div class="container">
   <div class="row">
-    <h3 class="text-center">Contact Me</h3>
     <div class="col-md-4 col-md-offset-4">
-      <%= flash[:notice] %>
+      <% flash.each do |type, msg| %>
+        <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+      <% end %>
       <div class="well">
         <%= form_for @contact do |f| %>
           <div class="form-group">
@@ -28,15 +29,15 @@
 </div>
 
 <div class="logos">
-  <a href="www.facbook.com">
+  <a href="https://www.facebook.com" target="_blank">
     <img src="/assets/logos/fb.png" height="135px" width="135px">
   </a>
   
-  <a href="www.instagram.com">
+  <a href="https://www.instagram.com" target="_blank">
     <img src="/assets/logos/insta.png" height="100px" width="100px">
   </a>
   
-  <a href="www.linkedin.com">
+  <a href="https://www.linkedin.com" target="_blank">
     <img src="/assets/logos/linked.png" height="100px" width="100px">
   </a>
 </div>
