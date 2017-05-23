@@ -81,8 +81,9 @@ h1 {
 
 .program-p {
     vertical-align: middle;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-right: 10px;
+    margin-left: 20%;
 }
 
 figure {
@@ -100,4 +101,28 @@ figure {
     margin-right: 50px;
     margin-top: 25px;
     display: inline-block;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.logos {
+    margin-left: 35%;
+}
+
+.about {
+    margin-top: 47px;
+    box-shadow: 10px 10px 5px;
+    display: block;
+}
+
+.multi {
+    margin-top: 50px;
+    float: right;
+}
+
+.header {
+    font-weight: bold;
 }
