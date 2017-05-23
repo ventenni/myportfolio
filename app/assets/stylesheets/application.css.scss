@@ -19,25 +19,85 @@
 
 body {
     font-family: raleway;
+    background-color: #cfcfcf;
+}
+
+.navbar-header {
+    height: 90px;
+}
+
+.navbar-header, .title-name {
+    line-height: 90px;
+    margin-left: 5%;
+    margin-top: 25px;
+    margin-bottom: -21px;
+    float: left;
+    font-size: 22pt;
 }
 
 .navbar-default {
     background-color: white;
     box-shadow: 10px 5px 10px;
+    width: 100%;
     padding-top: 3px;
     padding-bottom: 3px;
+    position: fixed;
 }
 
 .navbar-logo {
+    float: left;
     position: relative;
 }
 
-body {
-    background-color: #cfcfcf;
-    // background-image: url("large.png");
-    // background-position: center top;
+ul {
+    padding-top: 50px;
 }
 
-.title-name {
+h1 {
+    margin-top: 15%;
     text-align: center;
+}
+
+.program-holder {
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 80%;
+    width: 80%;
+}
+
+.programs {
+    width: 80%;
+    height: 150px;
+    margin-left: 12%;
+    margin-bottom: 50px;
+    background: white;
+    box-shadow: 10px 10px 5px;
+}
+
+.crimemap-logo {
+    float: left;
+    display: block;
+}
+
+.program-p {
+    vertical-align: middle;
+    padding-top: 50px;
+    margin-right: 10px;
+}
+
+figure {
+    display: block;
+}
+
+.image-holder {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.images {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    display: inline-block;
 }
