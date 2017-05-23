@@ -3,6 +3,5 @@ Rails.application.routes.draw do
     get 'about', to: 'pages#about'
     get 'programming', to: 'pages#programming'
     get 'photography', to: 'pages#photography'
-
     resources :contacts
 end
