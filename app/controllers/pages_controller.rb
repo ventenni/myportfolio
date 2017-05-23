@@ -8,8 +8,6 @@ class PagesController < ApplicationController
     def photography
     end
     
-    def contact
-    end
     
     def programming
     end
