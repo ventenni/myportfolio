@@ -68,8 +68,8 @@ h1 {
 .programs {
     width: 80%;
     height: 150px;
+    margin-top: 5%;
     margin-left: 12%;
-    margin-bottom: 50px;
     background: white;
     box-shadow: 10px 10px 5px;
 }
@@ -125,4 +125,10 @@ figure {
 
 .header {
     font-weight: bold;
+}
+
+.github {
+    float: right;
+    display: block;
+    margin-right: 5px;
 }
